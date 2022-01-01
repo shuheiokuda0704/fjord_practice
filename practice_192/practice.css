@@ -134,7 +134,7 @@ ol, ul {
   margin-bottom: 16px; 
 }
 
-section {
+section, aside {
   margin-top: 40px;
 }
 
@@ -145,7 +145,9 @@ blockquote {
 }
 
 img {
+  display: block;
   width: 80%;
+  margin: 20px auto 30px auto; 
 }
 
 form {
@@ -155,16 +157,37 @@ form {
 label {
   width: 130px;
   display: inline-block;
-  text-align: right ;
+  text-align: right;
   font-weight: bold;  
+  vertical-align: top;
+  margin-right: 10px;
 }
 
-input[type="text"] {
-  position: relative;
-  right: 0;
+textarea, input[type="text"] {
+  width: calc(100% - 150px);
+  border-radius: 4px;
+  outline-color: lightblue;
+}
+
+textarea {
+  height: 8em;
+}
+
+.form-items__item {
+  margin-bottom: 8px;
+}
+
+.form-action {
+  text-align: center;  
 }
 
 input[type="submit"] {
   font-size: 18px;
-  t
+  font-weight: bold;
+  color: black;
+  margin-top: 20px;
+  padding: 10px 40px 10px 40px;
+  background-color: lightblue;
+  border: none;
+  border-radius: 8px;
 }
