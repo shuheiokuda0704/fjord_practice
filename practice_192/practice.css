@@ -99,3 +99,72 @@ article {
 ////////////////////////////////////////
 */
 
+
+body {
+  line-height: 1.6  
+}
+
+h1 {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 24px;
+  border-bottom: solid 1px gray;
+}
+
+p {
+  margin-bottom: 6px;
+}
+
+ol {
+ list-style-type: decimal;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+ol, ul {
+  margin-top: 16px;
+  margin-left: 40px;
+  margin-bottom: 16px; 
+}
+
+section {
+  margin-top: 40px;
+}
+
+blockquote {
+  border-left: solid 4px gray;
+  padding-left: 12px;
+  color: gray;
+}
+
+img {
+  width: 80%;
+}
+
+form {
+  margin-top: 24px;  
+}
+
+label {
+  width: 130px;
+  display: inline-block;
+  text-align: right ;
+  font-weight: bold;  
+}
+
+input[type="text"] {
+  position: relative;
+  right: 0;
+}
+
+input[type="submit"] {
+  font-size: 18px;
+  t
+}
