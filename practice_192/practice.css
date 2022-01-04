@@ -167,6 +167,8 @@ textarea, input[type="text"] {
   width: calc(100% - 150px);
   border-radius: 4px;
   outline-color: lightblue;
+  padding: .5em;
+  border: solid 1px gray;
 }
 
 textarea {
