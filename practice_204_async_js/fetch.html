@@ -2,9 +2,11 @@
 <html>
 <head>
   <script>
-    fetch('https://bootcamp.fjord.jp/')
-    .then(response => response.text())
-    .then(data => console.log(data));
+    (async() => {
+      const response = await fetch('https://bootcamp.fjord.jp/');
+      const body = await response.text();
+      console.log(body);
+    })();
   </script>
 </head>
 <body>
